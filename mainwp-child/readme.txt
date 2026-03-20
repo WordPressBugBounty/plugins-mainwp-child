@@ -111,6 +111,11 @@ We have an extensive FAQ with more questions and answers [here](https://mainwp.c
 
 == Changelog ==
 
+= 6.0.4 - 3-20-2026 =
+
+* Security: Updated the `phpseclib` library to address a recently [disclosed vulnerability](https://nvd.nist.gov/vuln/detail/CVE-2026-32935). The issue does not affect MainWP in normal usage.
+* Fixed: Fatal error in when saving posts in Gutenberg if the sticky_posts option contains invalid data.
+
 = 6.0.3 - 3-17-2026 =
 
 * Fixed: Autoload settings for legacy data to optimize database performance.
