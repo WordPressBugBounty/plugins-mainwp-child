@@ -7,7 +7,7 @@ Plugin URI: https://mainwp.com
 Requires at least: 6.2
 Tested up to: 7.0
 Requires PHP: 7.4
-Stable tag: 6.1.2
+Stable tag: 6.1.3
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -95,6 +95,10 @@ Please follow the steps outlined in the [MainWP Feature Requests](https://voice.
 = Where can I find more information about MainWP? =
 We have an extensive FAQ with more questions and answers [here](https://mainwp.com/preinstall-faq/).
 
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the MainWP Child plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/9e5fb39d-412a-44d4-8639-39c3db443381). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 == Screenshots ==
 
 1. Sites - Operations
@@ -110,6 +114,11 @@ We have an extensive FAQ with more questions and answers [here](https://mainwp.c
 11. Dashboard Insights
 
 == Changelog ==
+
+= 6.1.3 - 7-7-2026 =
+
+* Fixed: Improved log filtering so the BackWPup backup job logs now include relevant default jobs more reliably.
+* Fixed: Problems with detecting the WP Staging plugin status caused by recent plugin update.
 
 = 6.1.2 - 6-16-2026 =
 
